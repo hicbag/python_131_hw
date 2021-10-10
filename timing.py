@@ -7,5 +7,5 @@ def calculate_time(f):
         value = f(*args, **kwargs)
         end = time.time()
         total = end - start
-        print(f"Total time {total:.0f}")
+        print(f"Total time {total}")
     return exectime
