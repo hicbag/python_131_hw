@@ -24,5 +24,5 @@ def parse_input():
     a=float(args[0])
     b=float(args[2])
     op = args[1]
-    print(calculator(a, b, op))
+    print(str(calculator(a, b, op)))
 
