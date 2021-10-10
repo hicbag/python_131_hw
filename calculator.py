@@ -9,8 +9,12 @@ def calculator(number1, number2, operator):
         if operator==opers[2]:
             return number1*number2
         if operator==opers[3]:
+            if number2==0:
+                return 'Invalid operation'
             return number1/number2
         if operator==opers[4]:
+            if number2==0: 
+                return 'Invalid operation'
             return number1//number2
         if operator==opers[5]:
             return number1**number2
